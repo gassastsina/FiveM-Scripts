@@ -1,0 +1,17 @@
+#status_list {
+	position: absolute;
+	left   : 11.4%;
+	bottom : 9.4%;
+	width  : 9.9%;
+	transform: rotate(-90deg);
+}
+
+.status {
+	border-style: solid;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-width: 2px;
+}
+
+.status_val {
+	height : 0.5em;
+}
