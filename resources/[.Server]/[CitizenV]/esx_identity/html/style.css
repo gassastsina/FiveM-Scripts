@@ -1,0 +1,214 @@
+@font-face {
+  font-family: Nickainley;
+  src: url(fonts/Nickainley.otf);
+}
+
+@font-face {
+  font-family:  pricedown;
+  src: url(fonts/pricedown.ttf);
+}
+
+@font-face {
+  font-family: orangeB;
+  src: url(fonts/OrangeBlossoms.ttf);
+}
+
+body {
+	font-family: sans-serif;
+	overflow: hidden;
+}
+
+.dialog {
+	width: 300px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	box-shadow: 0px 0px 50px 0px #000;
+	background-color: #f1f1f1;
+	overflow: hidden;
+	opacity: 0.9;
+	display: none;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 7px;
+	text-align: center;
+}
+
+.registre {
+	display: block;
+	margin-top: 5px;
+	padding: 10px;
+	background-color: #506be6;
+	border: 0;
+	color: #fff;
+	width: 100%;
+}
+
+.id {
+	display: block;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding: 10px;
+	background-color: #506be6;
+	color: #fff;
+	width: 93%;
+	text-align: center;
+	font-family: pricedown;
+}
+
+/*Arrivée Avion*/
+
+.arriveAvion{
+  width: 55%;
+  height:100%;
+  display: block;
+  align-items: center;
+  margin: auto;
+  margin-top: 7%;
+  display: none;
+}
+
+.avion{
+  background: rgb(255, 51, 51, 0.7);
+  font-family: orangeB;
+  font-size: 2em;
+}
+
+.firstAvion {
+  border-style:  solid;
+  border-radius: 2px;
+  border-color: black;
+  border-width: 2px;
+}
+
+.headerAvion {
+  width:100%;
+  height: 21%;
+  background-color: rgb(209, 209, 224, 0.7);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Nickainley;
+  color: #ff3333;
+  font-size: 2.5em;
+  margin: auto;
+}
+
+/*Arrivée Bateau*/
+
+.arriveBateau{
+  width: 55%;
+  height:100%;
+  display: block;
+  align-items: center;
+  display: none;
+  margin: auto;  
+  margin-top: 5%;
+}
+
+.bateau{
+  background-color: rgba(102, 140, 255, 0.7);
+  font-family: orangeB;
+  font-size: 2em;
+}
+
+.firstBateau {
+  border-style:  solid;
+  border-radius: 2px;
+  border-color: black;
+  border-width: 2px;
+}
+
+.headerBateau {
+  width:100%;
+  height: 21%;
+  background-color: rgb(209, 209, 224, 0.7);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Nickainley;
+  color: #3399ff;
+  font-size: 2.5em;
+  margin: auto;
+}
+
+/*Arrivée Natif*/
+
+.arriveNatif{
+  width: 50%;
+  height:100%;
+  display: block;
+  align-items: center;
+  display: none;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.natif{
+  background-color: rgba(204, 51, 255, 0.7);
+  font-family: orangeB;
+  font-size: 2em;
+}
+
+.firstNatif {
+  border-style:  solid;
+  border-radius: 2px;
+  border-color: black;
+  border-width: 2px;
+}
+
+.headerNatif {
+  width:100%;
+  height: 21%;
+  background-color: rgb(209, 209, 224, 0.7);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Nickainley;
+  color: #cc33ff;
+  font-size: 2.5em;
+  margin: auto;
+}
+
+/*Commun*/
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: auto;
+  border:  none;
+  padding: 25px;
+}
+
+.content h2, p {
+  margin: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: auto;
+  margin: auto;
+  border: none;
+  padding: 2em;
+}
+
+form h2, p {
+  margin: 5px;
+}
+
+.bold-text{
+  font-weight: bold;
+  font-size: 1.7em;
+  font-family: pricedown;
+}
