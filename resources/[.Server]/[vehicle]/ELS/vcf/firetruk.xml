@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ELS VEHICLE CONFIGURATION FILE -->
+<vcfroot>
+	<!-- INTERFACE -->
+	<INTERFACE>
+		<LstgActivationType>manual</LstgActivationType>
+	</INTERFACE>
+	<!-- EXTRAS OVERRIDE AND ENV LIGHTING-->
+	<EOVERRIDE>
+		<Extra01 IsElsControlled="false" AllowEnvLight="true" Color="red" OffsetX="0.0" OffsetY="0.0" OffsetZ="0.0" />
+		<Extra02 IsElsControlled="false" AllowEnvLight="true" Color="red" OffsetX="0.0" OffsetY="0.0" OffsetZ="0.0" />
+		<Extra03 IsElsControlled="false" AllowEnvLight="true" Color="red" OffsetX="0.0" OffsetY="0.0" OffsetZ="0.0" />
+		<Extra04 IsElsControlled="false" AllowEnvLight="true" Color="red" OffsetX="0.0" OffsetY="0.0" OffsetZ="0.0" />
+		<Extra05 IsElsControlled="false" AllowEnvLight="true" Color="red" OffsetX="0.0" OffsetY="0.0" OffsetZ="0.0" />
+		<Extra06 IsElsControlled="false" AllowEnvLight="true" Color="red" OffsetX="0.0" OffsetY="0.0" OffsetZ="0.0" />
+		<Extra07 IsElsControlled="false" AllowEnvLight="true" Color="red" OffsetX="0.0" OffsetY="0.0" OffsetZ="0.0" />
+		<Extra08 IsElsControlled="false" AllowEnvLight="true" Color="red" OffsetX="0.0" OffsetY="0.0" OffsetZ="0.0" />
+		<Extra09 IsElsControlled="false" AllowEnvLight="true" Color="red" OffsetX="0.0" OffsetY="0.0" OffsetZ="0.0" />
+	</EOVERRIDE>
+</vcfroot>

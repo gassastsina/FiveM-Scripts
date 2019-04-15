@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ELS VEHICLE CONFIGURATION FILE -->
+<vcfroot>
+	<!-- INTERFACE -->
+	<INTERFACE>
+		<LstgActivationType>manual</LstgActivationType>
+	</INTERFACE>
+	<!-- EXTRAS OVERRIDE AND ENV LIGHTING-->
+	<EOVERRIDE>	
+		<Extra01 IsElsControlled="false" AllowEnvLight="false" Color="red" OffsetX="-0.70" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra02 IsElsControlled="false" AllowEnvLight="false" Color="red" OffsetX="-0.25" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra03 IsElsControlled="false" AllowEnvLight="false" Color="blue" OffsetX="0.25" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra04 IsElsControlled="false" AllowEnvLight="false" Color="blue" OffsetX="0.70" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra05 IsElsControlled="false" AllowEnvLight="false" Color="red" OffsetX="-0.70" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra06 IsElsControlled="false" AllowEnvLight="false" Color="blue" OffsetX="0.70" OffsetY="-0.20" OffsetZ="0.50" />
+		<Extra07 IsElsControlled="false" AllowEnvLight="false" Color="amber" OffsetX="-0.40" OffsetY="-0.80" OffsetZ="0.40" />
+		<Extra08 IsElsControlled="false" AllowEnvLight="false" Color="amber" OffsetX="0.00" OffsetY="-0.80" OffsetZ="0.40" />
+		<Extra09 IsElsControlled="false" AllowEnvLight="false" Color="amber" OffsetX="0.40" OffsetY="-0.80" OffsetZ="0.40" />
+	</EOVERRIDE>
+	<!-- MISC -->
+	<MISC>
+		<VehicleIsSlicktop>false</VehicleIsSlicktop>
+		<ArrowboardType>off</ArrowboardType>
+		<UseSteadyBurnLights>false</UseSteadyBurnLights>
+		<DfltSirenLtsActivateAtLstg>3</DfltSirenLtsActivateAtLstg>
+		<Takedowns AllowUse="true" Mirrored="true" />
+		<SceneLights AllowUse="true" IlluminateSidesOnly="true" />	
+	</MISC>
+	<!-- CRUISE -->
+	<CRUISE>
+		<DisableAtLstg3>true</DisableAtLstg3>
+		<UseExtras Extra1="true" Extra2="false" Extra3="false" Extra4="true" />
+	</CRUISE>
+	<!-- SOUNDS -->
+	<SOUNDS>
+		<MainHorn InterruptsSiren="true" AudioString="SIRENS_AIRHORN" />
+		<ManTone1 AllowUse="true" AudioString="VEHICLES_HORNS_SIREN_1" />
+		<ManTone2 AllowUse="true" AudioString="VEHICLES_HORNS_SIREN_2" />
+		<SrnTone1 AllowUse="true" AudioString="VEHICLES_HORNS_SIREN_1" />
+		<SrnTone2 AllowUse="true" AudioString="VEHICLES_HORNS_SIREN_2" />
+		<SrnTone3 AllowUse="true" AudioString="VEHICLES_HORNS_POLICE_WARNING" />
+		<SrnTone4 AllowUse="true" AudioString="VEHICLES_HORNS_AMBULANCE_WARNING" />
+		<AuxSiren AllowUse="true" AudioString="VEHICLES_HORNS_SIREN_1" />
+		<PanicMde AllowUse="true" AudioString="VEHICLES_HORNS_POLICE_WARNING" />
+	</SOUNDS>
+</vcfroot>
