@@ -1,0 +1,2 @@
+Les runs viennent du script de noobcoder du script GoPostal (https://forum.fivem.net/t/release-gopostal-delivery-job)
+Le script permettant le son des intros vient de Scott du script InteractSound (https://forum.fivem.net/t/release-play-custom-sounds-for-interactions/) 
