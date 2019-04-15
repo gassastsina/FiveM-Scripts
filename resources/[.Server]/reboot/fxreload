@@ -1,0 +1,9 @@
+/home/fxserver/logs
+{
+    rotate 4
+    weekly
+    missingok
+    notifyempty
+    delaycompress
+    compress
+}
